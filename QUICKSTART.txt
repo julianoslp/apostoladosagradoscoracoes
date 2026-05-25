@@ -1,0 +1,72 @@
+SLIDER APPLET QUICKSTART
+-----------------------------
+
+We suggest you start with the d0_demo, as this is a
+fairly straightforward, easy-to-follow example.
+
+If testing the d0_demo locally, we recommend that you
+are connected to the Net so the links will work.
+
+The start page for this demo is d0_demo.html
+
+
+FREE VERSION:
+-----------------------------
+
+Send all files beginning with d0_xxxx to your server,
+all in the same directory.
+
+Also, of course, send the slider.class file (in binary!)
+to your server, same directory as the rest of the files.
+
+
+
+PURCHASE VERSION:
+-----------------------------
+
+Obtain a key for your domain from the log-in area
+at http://www.codebrain.com/nova -- or you can just plug
+in FREE in the KeyCode value temporarily.  (See the
+documentation.txt on this.) Instructions for inserting your
+key in the applet are included in the e-mail you receive at
+time of purchase, as well as in the documentation.txt.
+You will also receive very clear, explicit instructions
+via e-mail, each time you make a key at the log-in area
+key-maker.
+
+Send all files beginning with d0_xxxx to your server,
+all in the same directory.
+
+Also, of course, send the slider.class file (in binary!)
+to your server, same directory as the rest of the files.
+
+
+
+ALL VERSIONS:
+-----------------------------
+
+Once you basically have the demo operating, scan through
+the documentation.txt provided, and start by changing the
+parameters in the demo a little at a time to get a feel
+for how they work and what they do.
+
+This is a pro applet with an ample feature set, so
+expect to put just a little effort into the learning curve.
+
+We know you're gonna screw up the demo kit... lol...
+so feel free to run up and grab a fresh one if you do.
+
+Make sure you get around to reading the documentation
+(documentation.txt) in detail, sooner or later, so you can
+delve into the raft of great capabilities this applet offers!
+
+
+-----------------------------
+
+That's it, that's all, go to it!
+
+Best,
+
+
+
+CodeBrain.com

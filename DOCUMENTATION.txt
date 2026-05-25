@@ -1,0 +1,306 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ DOCUMENTATION:  SLIPPER APPLET
++ CodeBrain.com's slipper.class applet
++ Version 3.0.2  Final Release
++ Copyright 2000 by CodeBrain.com
++ Source:  http://www.CodeBrain.com
++
++
++ FREE for Private and Non-Profit Users...
++ The FREE version displays a brief hook notice to
++ www.CodeBrain.com at start-up -- otherwise it functions
++ exactly as the purchase version, with all parameters and
++ commands the same.
++
++ COMMERCIAL & FOR-PROFIT USERS ARE *REQUIRED* TO USE THE
++ PURCHASE VERSION of this applet, always quickly available
++ at www.CodeBrain.com.
++
++ The PURCHASE version has *no* start-up or other notices;
++ and it starts and runs much faster. WE ENCOURAGE those wishing
++ to buy the applet to use the free version for trials,
++ however, so you know what you're getting when you purchase.
++
++ Support is available for the purchase version of the
++ applet, only. The support address is: NovaHelp@CodeBrain.com
++ You MUST include your USER ID in *all* correspondence.
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ ARTIST'S Credits:
++
++ All images used in the Slipper Applet demos are by New Mexico artist
++ Sondra Seeger, and copyrighted by her.  All rights remain entirely with
++ the artist.  Private sites may use these images freely, but commercial
++ sites *must* contact the artist for arrangements.  If you'd like to see
++ more of Ms. Seeger's work, visit her site at www.seegersart.com
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+=========================================================================
+=
+= P A R A M E T E R S   A N D   I N S T R U C T I O N S
+=
+=========================================================================
+
+
+GENERAL NOTES
+-------------------------------------------------------------------------
+
+// CodeBrain's slipper.class code is written protectively -- to make it
+// easy to set up and get running.  Demos and all the associated
+// graphics are included, to get you rolling quickly.
+//
+// Other than the "Notice" parameter and a couple of image files,
+// you can leave out any parameter and the applet will run.
+// That is, "If in doubt, leave it out!"  
+//
+// You can make the applet as simple as you wish, without the
+// clutter and confusion of a multitude of parameters -- and then
+// gradually build upward into more complex renditions.
+//
+// Parameter names are as descriptive as we can make them without
+// having them a mile long, and they ARE case sensitive, so take care.
+//
+// Keep image files to the smallest dimensions and file sizes
+// possible.  Large images backload the applet and slow it down.
+//
+// To get started, place the slipper.class file and ALL files used by
+// the applet in the SAME directory.  Remember that .class files
+// must go to your server in binary!
+//
+// Check out the demos included, and gradually change parameters
+// to get a feel for how the applet works.
+//
+// Good luck, and we hope you have a blast with CodeBrain's
+// slipper.class. It's a simple applet to use, but provides sophisticated
+// layout possibilities and does a great job for slideshow presentations.
+//
+// Best regards,
+//
+// CodeBrain  
+
+
+
+P A R A M E T E R S
+=========================================================================
+
+
+
+<param name="Notice"                 value="Applet by www.CodeBrain.com">
+-------------------------------------------------------------------------
+// Must be present, EXACTLY, or the applet will run, but return an error
+// message indicating the notice is wrong or missing.
+
+
+<PARAM NAME="KeyCode"                        VALUE="whatever_the_key_is">
+-------------------------------------------------------------------------
+// COMMERCIAL & FOR-PROFIT USERS ARE *REQUIRED* TO PURCHASE keys for
+// this applet, always quickly available at www.CodeBrain.com.  You may
+// of course use the free version for evaluation purposes!
+//
+// If you have the FREE version...
+// Enter FREE in the VALUE.  For example:
+//
+//       <PARAM NAME="KeyCode" VALUE="FREE">
+//
+// If you have the PRO version...
+// Enter your key in the VALUE. For example:
+//
+//       <PARAM NAME="KeyCode" VALUE="AQ?/FFG1*PSU9">
+//
+// For those with the purchased version, keys are automatically made
+// for you dynamically off the CodeBrain.com site.  You'll receive
+// explicit instructions on this at time of purchase, and each time
+// that you make a key.
+//
+// If you are unsure what the domain for the key is, use DOMAIN as
+// the value in this parameter.  For example:
+//
+//       <PARAM NAME="KeyCode" VALUE="DOMAIN">
+//
+// and it will tell you the domain name needed for the applet.
+
+
+<param name="BackgroundColor"                        value="rrr,ggg,bbb">
+-------------------------------------------------------------------------
+// This sets the applet background color.
+// Usual RGB format, values 0-255.
+// Example: value = "255,0,0" would make the applet background red.
+
+
+<param name="Direction"                                        value="0">
+-------------------------------------------------------------------------
+// This sets the direction in which the applet will scroll the images.
+//     0 = scroll from bottom to top
+//     1 = scroll from top to bottom
+// The default is bottom to top; leave out the parameter if you don't
+// need it.
+
+
+<param name="Speed"                                           value="19">
+-------------------------------------------------------------------------
+// This is the speed of the applet scrolling.  Smaller numbers produce 
+// faster scrolling.  A suggested range is probably 5-30 or so, but 
+// feel free to experiment.  Note that running too fast may cause
+// skipping on some monitors, and running very slowly will tend to pro-
+// duce a stepped, jerking motion.  As a rule, the applet functions fine
+// at the default speed; so you may normally leave this parameter out
+// entirely.
+
+
+<param name="SoundFile"                             value="soundfile.au">
+-------------------------------------------------------------------------
+// This is the sound file that will be triggered on a mouse-click.  It
+// must be in standard JAVA sound file format.  Keep sound files as
+// small as possible.  If not using sound, leave this parameter out.
+
+
+<param name="FrameThickness"                                   value="5">
+-------------------------------------------------------------------------
+// This sets the thickness of the frame in pixels.  The frame is optional
+//   and the default value for it is 5 pixels.  If you don't wish to see
+//   the frame, set this value to 0.  Note that the 'frame' occurs out-
+//   side what we call the 'border' (see BorderThickness below.)
+
+
+<param name="FrameColor"                             value="rrr,ggg,bbb">
+-------------------------------------------------------------------------
+// This sets the frame color.
+// Usual RGB format, values 0-255.
+// Example: value = "0,0,255" would make the frame blue.
+
+
+<param name="BorderThickness"                                  value="5">
+-------------------------------------------------------------------------
+// This sets the thickness of the border around each image, in pixels.  
+//    The border is optional and the default value for it is 5 pixels.
+//    If you don't wish to see the border, set this value to 0.  Note
+//    that the 'border' occurs inside what we call the 'frame'
+//    (see FrameThickness above.)
+
+
+<param name="BorderColor"                            value="rrr,ggg,bbb">
+-------------------------------------------------------------------------
+// This sets the border color.
+// Usual RGB format, values 0-255.
+// Example: value = "0,255,0" would make the border green.
+
+
+<param name="LinkMode"                                         value="1">
+-------------------------------------------------------------------------
+// This sets whether the border, the frame, both, or nothing will change
+//    to the LinkColor (below) when the mouse passes over an image.  The
+//    value settings are:
+//       0 = frame & border (both)
+//       1 = frame
+//       2 = border
+//       3 = neither
+//    Note that frame and border thicknesses must be set to suitable 
+//    values, or, of course, you won't see the link color changes.
+
+
+<param name="LinkColor"                              value="rrr,ggg,bbb">
+-------------------------------------------------------------------------
+// This sets the link color.
+// Usual RGB format, values 0-255.
+// Example: value = "255,0,0" would make the link color red.
+
+
+
+<param name="HorizontalMode"                                   value="2">
+-------------------------------------------------------------------------
+// This sets how images will be positioned, horizontally, in the applet.
+//    The value settings are:
+//       0 = left
+//       1 = center
+//       2 = right
+//    The default setting is to left-justify images horizontally.
+//    Note that images CAN be larger than the width of the applet.
+
+
+<param name="Image1"                                   value="image.jpg">
+-------------------------------------------------------------------------
+// This set of parameters sets the images to be used.  Images may be 
+//     .gif, animated .gif, or .jpg formats.  Keep image file sizes and
+//     dimensions as small as possible, of course, to keep down loading
+//     time and redrawing overhead.  
+//
+// Note that images DO NOT have to have similar dimensions.  The applet
+//     readily accommodates images of varying widths and heights, and 
+//     interesting effects can be created using differing form factors.  
+//
+// For EACH IMAGE, change the number portion of the parameter.  Numbers
+//     should be successive, starting at 1, with no skips in the number
+//     sequence.  For example:
+//           <param name="Image1" value="horse.jpg">
+//           <param name="Image2" value="earth.jpg">
+//           <param name="Image3" value="phone.jpg">
+//
+// Have a look at the included demos if you need additional examples.
+
+
+<param name="Link1"     value="http://www.whatevername.com/thepage.html">
+-------------------------------------------------------------------------
+// This would be the link associated with a given image, following the
+//    same numbering scheme as in the ImageX parameter above -- that is,
+//    Link1 would be the link associated with Image1, Link2 associates
+//    with Image2, etc.
+//
+// If you do NOT want an image linked -- leave out the tag.  Skips in 
+//    the number sequence of the LinkX parameter are permitted.
+//
+// Note that if an ImageX has no link associated, of course there will
+//    be no link box that follows that image.
+
+
+<param name="Target1"                                       value="_new">
+-------------------------------------------------------------------------
+// This is the target frame or window that the corresponding image will
+// link to.  Again, same numbering scheme as with images.  It IS okay to
+// skip numbers in TargetX.  If you don't specify a TargetX, the default
+// is _top -- that is, same window.
+//
+// Just so you don't have to go look it up... TargetX takes the
+// same general values that you use in HTML.  Values with an underscore
+// usually refer to the browser itself, thus:
+//                 _new   - opens a new window
+//                 _blank - also a new window
+//                 _self  - loads in the same frame
+//                 _top   - opens in the same window
+// When using a framed page layout, the value for TargetX would be the
+// name of the frame where you want the linked page to appear; i.e.,
+// main, contents, george -- whatever name you've given the frame. 
+
+
+========================================================================
+
+That's it, that's all, go to it!
+
+Best regards,
+
+
+
+
+CodeBrain.com
+
+
+
+
+=========================================================================
+The CodeBrain's slipper.class applet is (c) 2000 by CodeBrain
+All responsibility for use of the applet remains with the user.
+Redistribution of this applet is strictly forbidden!
+
+================================================    
+
+NA PAGINA "DESCEROSA2"
+
+Nós aumentamos o eight de 600 para 1000
+Aumentamos também o número de rosas
+var no = 24   para  36.
+
+=======================

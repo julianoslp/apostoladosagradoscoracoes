@@ -1,0 +1,41 @@
+	LICENSE FOR USE AND DISTRIBUTION
+
+	AKoff Music Composer
+	Copyright (c) 1998-2000 by AKoff Sound Labs.
+	All rights reserved.
+
+By using, copying, transmitting, distributing or installing 
+AKoff Music Composer (or simply Composer), you agree to all 
+of the terms of this License. If you do not agree to any of 
+the terms of this License, then do not use, copy, transmit, 
+distribute, or install Composer.
+
+Composer is not free software. You may use this software for 
+evaluation purposes without charge for a period of 30 days. 
+If you decide to continue using Composer after the 30-day 
+evaluation period, you must register.
+
+Once registered, the user is granted a non-exclusive license 
+to use Composer on one computer at a time. The registered 
+software may not be rented or leased but may be permanently 
+transferred, if the person receiving it agrees to the terms 
+of this license. If the software is an update, the transfer 
+must include the update and all previous versions.
+
+The unregistered software may be freely distributed provided 
+the distribution package is not modified. No person or company 
+may charge a fee for the distribution of Composer without written 
+permission from the copyright holder.
+
+COMPOSER IS DISTRIBUTED "AS IS".  NO WARRANTY OF ANY KIND IS 
+EXPRESSED OR IMPLIED.  YOU USE IT AT YOUR OWN RISK.  
+AKOFF SOUND LABS WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, 
+LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR 
+MISUSING THIS SOFTWARE.
+
+You may not use, copy, emulate, clone, rent, lease, sell, modify, 
+decompile, disassemble, otherwise reverse engineer, or transfer any 
+subset of the software, except as provided for in this agreement. 
+Any such unauthorized use shall result in immediate and automatic 
+termination of this license and may result in criminal and/or 
+civil prosecution.
